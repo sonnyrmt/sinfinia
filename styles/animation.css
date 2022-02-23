@@ -1,0 +1,29 @@
+/* scroll reveal info animation */
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* scroll reveal info animation end */
+
+/* navbar reveal animation */
+
+header.sticky {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background:black;
+}
+
+.fa-bars.sticky-icons, .fa-whatsapp.sticky-icons {
+  color: white;
+}
+
+/* navbar reveal animation end */
